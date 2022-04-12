@@ -1,0 +1,19 @@
+{
+  "name": "restaurants_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server",
+    "dev": "nodemon ./src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.25.3",
+    "graphql": "^15.8.0",
+    "pg": "^8.7.3"
+  },
+  "description": ""
+}
