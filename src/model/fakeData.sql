@@ -16,4 +16,9 @@ INSERT INTO restaurants(restaurant_name, restaurant_image, type_id) VALUES('KFC'
 
 INSERT INTO restaurant_branches(branch_name, branch_image, restaurant_id) VALUES('KFC Yunusobod', 'https://static.euronews.com/articles/stories/06/35/03/60/1024x538_cmsv2_795d8502-7d50-522b-8fac-4123b24794c3-6350360.jpg', '1b8836c9-50e2-4864-a517-4907c0e3125f');
 INSERT INTO restaurant_branches(branch_name, branch_image, restaurant_id) VALUES('KFC Xalqlar do`stligi', 'https://static.euronews.com/articles/stories/06/35/03/60/1024x538_cmsv2_795d8502-7d50-522b-8fac-4123b24794c3-6350360.jpg', '1b8836c9-50e2-4864-a517-4907c0e3125f');
-INSERT INTO branch_meals(meal_name, meal_price, meal_image, branch_id) VALUES('Shurva', '17 000', 'https://abasayyoh.com/uploaded_images/pages/1/338.jpg', '5d58231f-d1c4-45b1-986d-3b08b1be842d'); 
+
+INSERT INTO branch_meals(meal_name, meal_price, meal_image, branch_id) VALUES('Lavash', '23 000', 'https://c8.alamy.com/comp/GBHJ3X/meat-doner-in-lavash-bread-in-baku-azerbaijan-GBHJ3X.jpg', '688d54c2-0359-474f-ba91-f82449302b09'); 
+
+INSERT INTO branch_meals(meal_name, meal_price, meal_image, branch_id) VALUES('Pizza', '35 000', 'https://thumbor.thedailymeal.com/9YPx6b1zbg8vXnOYlm4Em2U-1TU=//https://www.thedailymeal.com/sites/default/files/story/2019/bbqfrankpizza-main.JPG', '688d54c2-0359-474f-ba91-f82449302b09'); 
+
+INSERT INTO branch_meals(meal_name, meal_price, meal_image, branch_id) VALUES('Combo', '35 000', 'https://image.shutterstock.com/image-photo/double-burger-hamburger-fries-menu-260nw-549443797.jpg', '688d54c2-0359-474f-ba91-f82449302b09'); 

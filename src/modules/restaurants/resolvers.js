@@ -13,5 +13,9 @@ module.exports = {
     restaurant_branches: async (_, { restaurant_id }) => {
       return await model.restaurant_branches(restaurant_id);
     },
+
+    branch_meals: async (_, { branch_id }) => {
+      return await model.branch_meals(branch_id);
+    },
   },
 };

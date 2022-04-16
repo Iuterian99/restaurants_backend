@@ -21,9 +21,17 @@ module.exports = gql`
     restaurant_id: ID!
   }
 
+  type Branch_Meals {
+    meal_id: ID!
+    meal_name: String
+    meal_image: String
+    branch_id: ID!
+  }
+
   type Query {
     restaurant_types: [Restaurant_Types!]!
     restaurants(type_id: ID!): [Restaurants!]!
-    restaurant_branches(restaurant_id: ID!): [Restaurant_Branches]
+    restaurant_branches(restaurant_id: ID!): [Restaurant_Branches!]!
+    branch_meals(branch_id: ID!): [Branch_Meals!]!
   }
 `;
