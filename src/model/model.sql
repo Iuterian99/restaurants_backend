@@ -25,3 +25,11 @@ CREATE TABLE branch_meals(
   meal_image text,
   branch_id uuid references restaurant_branches(branch_id)
 );
+
+CREATE TABLE meal_orders(
+  order_id uuid DEFAULT uuid_generate_v4() PRIMARY KEY,
+  order_values INTEGER DEFAULT 1,
+  client_name varchar(255) NOT NULL,
+  client_number varchar(255) NOT NULL,
+  meal_id uuid references branch_meals(meal_id)
+);

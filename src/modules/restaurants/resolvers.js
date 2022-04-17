@@ -17,5 +17,24 @@ module.exports = {
     branch_meals: async (_, { branch_id }) => {
       return await model.branch_meals(branch_id);
     },
+
+    meal_orders: async (_, { meal_id }) => {
+      return await model.meal_orders(meal_id);
+    },
+  },
+  Mutation: {
+    new_restaurant: async (
+      _,
+      { restaurant_name, restaurant_image, type_id }
+    ) => {
+      return await model.new_restaurant(
+        restaurant_name,
+        restaurant_image,
+        type_id
+      );
+    },
+    delete_restaurant: async (_, { restaurant_id }) => {
+      return await model.delete_restaurant(restaurant_id);
+    },
   },
 };

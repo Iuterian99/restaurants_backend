@@ -22,3 +22,5 @@ INSERT INTO branch_meals(meal_name, meal_price, meal_image, branch_id) VALUES('L
 INSERT INTO branch_meals(meal_name, meal_price, meal_image, branch_id) VALUES('Pizza', '35 000', 'https://thumbor.thedailymeal.com/9YPx6b1zbg8vXnOYlm4Em2U-1TU=//https://www.thedailymeal.com/sites/default/files/story/2019/bbqfrankpizza-main.JPG', '688d54c2-0359-474f-ba91-f82449302b09'); 
 
 INSERT INTO branch_meals(meal_name, meal_price, meal_image, branch_id) VALUES('Combo', '35 000', 'https://image.shutterstock.com/image-photo/double-burger-hamburger-fries-menu-260nw-549443797.jpg', '688d54c2-0359-474f-ba91-f82449302b09'); 
+
+INSERT INTO meal_orders(client_name, client_number, meal_id) VALUES('Abdushukur', '+998999999999', '0e248b54-ab87-44af-82e8-589af1a32d98');
